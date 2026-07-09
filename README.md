@@ -1,1 +1,7 @@
-# Form-Handling
+Form handling in React is the process of creating, managing, and submitting forms using React components and state. React uses controlled components, where the form data is controlled by the component's state. Each input field is connected to a state variable, and its value is updated using the `onChange` event. This approach ensures that the user interface and the application state remain synchronized.
+
+A typical React form includes elements such as text fields, radio buttons, checkboxes, select menus, and buttons. When a user enters data, an event handler updates the corresponding state using the `useState` hook or state management in class components. On form submission, the `onSubmit` event is used, and the `preventDefault()` method prevents the browser from reloading the page. The form data can then be validated, processed, or sent to a server using APIs.
+
+React also supports uncontrolled components, where form data is accessed directly from the DOM using refs. However, controlled components are preferred because they provide better control, validation, and predictability.
+
+Form handling in React improves user experience by enabling real-time validation, instant feedback, and dynamic updates. It is widely used in login forms, registration pages, search bars, feedback forms, and online applications. Proper form handling makes React applications more interactive, reliable, and easier to maintain.
